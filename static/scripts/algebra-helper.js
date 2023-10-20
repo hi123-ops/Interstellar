@@ -1,20 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
     {
-      name: "Amazon",
-      link: "https://amazon.com/",
-      image: "/images/icons/apps/amazon.png",
-      categories: ["all", "media"],
-      error: false
-    },
-    {
-      name: "BuzzFeed Quizzes",
-      link: "https://buzzfeed.com/quizzes",
-      image: "/images/icons/apps/buzzfeed.png",
-      categories: ["all", "media"],
-      error: false
-    },
-    {
       name: "Free Movies Watch",
       link: "https://freemovieswatch.tv",
       image: "/images/icons/freemovieswatch.png",
@@ -26,13 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
       link: "https://scratch.mit.edu",
       image: "/images/icons/scratch.jpg",
       categories: ["all", "social", "game", "media", ""],
-      error: false
-    },
-    {
-      name: "Chess.com",
-      link: "https://chess.com",
-      image: "/images/icons/chess.png",
-      categories: ["all", "game"],
       error: false
     },
     {
@@ -50,13 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "DuckDuckGo",
-      link: "https://start.duckduckgo.com/",
-      image: "/images/icons/apps/duckduckgo.png",
-      categories: ["all"],
-      error: false
-    },
-    {
       name: "ESPN",
       link: "https://www.espn.com/watch/",
       image: "/images/icons/apps/espn.webp",
@@ -67,13 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "Fifa Rosters",
       link: "https://fifarosters.com/",
       image: "/images/icons/fifa.png",
-      categories: ["all", "media"],
-      error: false
-    },
-    {
-      name: "Firefox Web Browser",
-      link: "https://replit.com/@cooleddie001/Firefox-Legacy?v=1",
-      image: "/images/icons/apps/firefox.png",
       categories: ["all", "media"],
       error: false
     },
@@ -103,20 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
       link: "https://google.com",
       image: "/images/icons/apps/google.png",
       categories: ["all", "media"],
-      error: false
-    },
-    {
-      name: "HBO MAX",
-      link: "https://www.hbomax.com/",
-      image: "/images/icons/apps/hbo.webp",
-      categories: ["all", "stream"],
-      error: false
-    },
-    {
-      name: "Messenger",
-      link: "https://messenger.com/",
-      image: "/images/icons/apps/messenger.png",
-      categories: ["all", "social", "message"],
       error: false
     },
     {
@@ -245,13 +196,6 @@ document.addEventListener('DOMContentLoaded', () => {
       image: "/images/icons/discord.jpg",
       categories: ["all", "social"],
       blank: "true",
-      error: false
-    },
-    {
-      name: "HD Today",
-      link: "https://hdtoday.tv",
-      image: "/images/icons/hd.png",
-      categories: ["all", "media", "stream"],
       error: false
     },
   ];
